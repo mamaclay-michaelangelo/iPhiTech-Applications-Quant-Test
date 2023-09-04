@@ -1,0 +1,83 @@
+.module--services {
+    @apply py-40px md:py-50px relative;
+
+    .wrapper {
+        @apply relative z-[1];
+    }
+
+    &:after {
+        content: '';
+        background-image: url('img/services-bg.svg');
+        width: 100%;
+        height: 650px;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: auto;
+        position: absolute;
+        bottom: 30%;
+    }
+}
+
+.services-row, .content-img {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+
+    .content-services {
+        width: 45%;
+
+        @media (max-width: 768px) {
+            width: 100%;
+        }
+    }
+
+    .content-img {
+        width: 55%;
+
+        @media (max-width: 768px) {
+            width: 100%;
+        }
+    }
+
+    .content-services, .content-img {
+        padding: 0 15px;
+    }
+
+    .content-services {
+        @apply text-white;
+    }
+}
+
+.services-row {
+    padding-bottom: 5em;
+
+    .content-services {
+        padding-right: 50px;
+    }
+
+    &:nth-child(even) {
+        flex-flow: row-reverse;
+
+        .content-services {
+            padding-left: 50px;
+            padding-right: 0;
+        }
+    }
+
+     @media (max-width: 768px) {
+        display: block;
+    }
+}
+
+.content-img {
+    img {
+        &:last-child {
+            padding-right: 0 !important;
+            padding-left: 15px;
+        }
+    }
+
+     @media (max-width: 768px) {
+        margin-top: 2em;
+    }
+}

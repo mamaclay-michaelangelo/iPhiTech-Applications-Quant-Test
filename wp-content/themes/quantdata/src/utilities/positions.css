@@ -1,0 +1,22 @@
+.relative {
+    @apply relative;
+}
+
+.absolute {
+    @apply absolute top-0 left-0 w-full h-full;
+}
+
+.fixed {
+    @apply fixed top-0 left-0 w-full h-full;
+}
+
+img.absolute { 
+    @apply object-cover z-[0];
+}
+
+.absolute-center {
+    @apply absolute w-full;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

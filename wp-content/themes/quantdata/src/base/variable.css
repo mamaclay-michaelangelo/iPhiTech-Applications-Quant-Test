@@ -1,0 +1,6 @@
+@layer base {
+  :root {
+    --primary-color: #00A8E8;
+    --font-semi: 'GilroySemiBold';
+  }
+}

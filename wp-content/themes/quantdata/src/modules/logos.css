@@ -1,0 +1,3 @@
+.module--logo-carousel {
+    @apply py-40px md:py-80px;
+}

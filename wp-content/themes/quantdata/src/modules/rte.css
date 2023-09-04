@@ -1,0 +1,16 @@
+.module--rte {
+    @apply py-40px md:py-50px relative;
+
+    .bg {
+        @apply absolute top-0 left-0 w-full h-full object-cover opacity-[0.5];
+    }
+
+    .wrapper {
+        @apply relative z-[1];
+    }
+}
+
+.rte-content {
+    max-width: 985px;
+    margin: auto;
+}

@@ -1,0 +1,136 @@
+@media (max-width: 1280px) {
+	.hero-image {
+		width: auto;
+	}
+}
+
+@media (max-width: 1024px) {
+	.wrapper-border:before {
+    width: 360px;
+    left: 5%;
+	}
+	.services-row .content-services {
+    padding-right: 10px;
+	}
+	.services-row:nth-child(even) .content-services {
+    padding-left: 10px;
+	}
+	.module--testimonial .testimonials--item {
+		padding: 3em;
+		flex: 0 0 47%;
+		margin-bottom: 2em;
+		margin-right: 15px;
+	}
+}
+
+@media (max-width: 768px) {
+	.wrapper-border:before {
+    width: 250px;
+	}
+	.footer-logo {
+		margin-bottom: 1em;
+	}
+	.footer-navigation ul {
+    text-align: left;
+	}
+}
+
+@media (max-width: 767px) {
+	.wrapper-border:before {
+    width: 210px;
+	}	
+	.hero-item .absolute-center {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0,0);
+	}
+	.hero-content {
+    padding-top: 2em;
+	}
+}
+
+
+@media (max-width: 600px) {
+	h1 {
+    font-size: 40px;
+	}
+	h3 {
+    font-size: 28px;
+	}
+	.subheader {
+    font-size: 17px;
+  }
+	.btn {
+		font-size: 15px;
+	}
+	.wrapper-border:before {
+    width: 65px;
+	}
+	.three-col-row {
+    display: block;
+
+    .content-col {
+	    width: 100%;
+
+	    h2 {
+	    	font-size: 40px;
+    		margin-bottom: 10px;
+	    }
+		}
+	}
+	.hero-title {
+    max-width: initial;
+	}
+	.hero-text p {
+    max-width: initial;
+	}	
+	.services-row {
+    padding-bottom: 4em;
+	}
+	.module--testimonial {
+		.testimonials--item {
+	    padding: 0 1em;
+	    flex: 100%;
+	    margin-bottom: 1em;
+	    margin-right: 0;
+		}
+
+		&:before {
+			width: 100%;
+    	bottom: -18%;
+		}
+		&:after {
+			width: 100%;
+		}
+	}
+	.content-img {
+    display: block;
+
+    img {
+    	width: 100% !important;
+	    padding: 0 !important;
+	    margin-bottom: 1em;
+    }
+	}
+	.footer-logo img {
+    max-width: 250px;
+	}
+	.form-newsletter {
+    display: block;
+
+    .form-group {
+	    width: 100%;
+	    margin-right: 0;
+	    margin-bottom: 1em;
+    }
+	}
+	.form-submit {
+    text-align: right;
+	}
+	.footer-navigation ul li {
+    display: inline-block;
+    padding-right: 10px;
+    margin-bottom: 10px;
+	}
+}

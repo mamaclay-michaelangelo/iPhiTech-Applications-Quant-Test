@@ -1,0 +1,33 @@
+.module--three-column {
+    @apply py-40px md:py-50px relative;
+
+    .wrapper {
+        @apply relative z-[1];
+    }
+}
+
+.three-col-row {
+    .content-col {
+        width: 33%;
+        padding: 0 15px;
+
+        h2 {
+            font-size: 60px;
+        }
+
+        h3 {
+            color: #C2EEFF;
+            text-transform: capitalize;
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 768px) {
+            width: 50%;
+            margin-bottom: 2em;
+        }
+    }
+
+    @media (max-width: 768px) {
+        justify-content: center;
+    }
+}

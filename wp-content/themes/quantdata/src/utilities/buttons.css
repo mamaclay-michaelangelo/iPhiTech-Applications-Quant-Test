@@ -1,0 +1,16 @@
+.btn {
+    @apply inline-block py-10px px-30px transition;
+    letter-spacing: 3.6px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: var(--font-semi);
+
+    &--primary {
+        @apply bg-black text-white border border-black; 
+        background-color: var(--primary-color);
+
+        &:hover {
+            @apply bg-white text-black;
+        }
+    }
+}

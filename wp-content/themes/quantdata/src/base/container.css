@@ -1,0 +1,15 @@
+.wrapper {
+    @apply max-w-max-95 relative z-[1] md:max-w-wrap px-30px mx-auto ;
+
+    &-border {
+        &:before {
+            content: '';
+            background-image: url('img/border.svg');
+            width: 479.271px;
+            height: 311.959px;
+            position: absolute;
+            left: 0;
+            top: 12px;
+        }
+    }
+}
