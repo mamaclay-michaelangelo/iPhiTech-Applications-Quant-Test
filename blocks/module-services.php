@@ -34,7 +34,7 @@
                 <?php $count = count(get_sub_field('images')); 
                 while( have_rows('images') ): the_row(); 
                 $image        = get_sub_field('image');  ?>
-                    <img data-src="<?= $image['url'] ?>" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="<?= $logo['alt'] ?>" style="<?php if ( $count > 1 ) : ?>width: 50%; padding-right: 15px;<?php else: ?> width: 100%; padding: 0 !important;<?php endif;?>" >
+                    <img data-src="<?= $image['url'] ?>" src="<?= get_template_directory_uri() ?>/img/placeholder.png" alt="<?= $image['alt'] ?>" style="<?php if ( $count > 1 ) : ?>width: 50%; padding-right: 15px;<?php else: ?> width: 100%; padding: 0 !important;<?php endif;?>" >
                 <?php endwhile ?>
             </div>
         </div>
